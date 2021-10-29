@@ -1,0 +1,117 @@
+/* Limpar formatações padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #2a2a2a;
+}
+
+#navegacao {
+    background: linear-gradient(120deg, #161616, #4b4b4b);
+    border-bottom: 1px solid #727272;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-principal {
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 13px 0;
+}
+
+#postagem {
+    background: rgb(22, 22, 22);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px 5px;
+    color: #c7c7c7;
+}
+
+h2 {
+    color: #aa8dff;
+}
+
+
+/* -------------------------- */
+/* ----Formatação do menu---- */
+/* -------------------------- */
+
+/*   Todos os estados do link */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*   Links não visitados      */
+a:link {
+    color: #d6d6d6;
+}
+
+/*   Links visitados          */
+a:visited {
+    color: #d6d6d6;
+}
+
+/*   Links hover              */
+a:hover {
+    color: rgb(22, 22, 22);
+    background: #aa8dff;
+}
+
+/*   Links active             */
+a:active {
+    color: #7e7e7e;
+}
+
+/* -------------------------- */
+
+
+/* Classes */
+.roxo {
+    color: #aa8dff;
+}
+
+.data-postagem {
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem {
+    float: left;
+    margin: 0 10px 5px 0;
+    border-radius: 8px;
+}
+
+.postado {
+    border-left: 5px solid #ffe75d;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.branco {
+    color: white;
+}
